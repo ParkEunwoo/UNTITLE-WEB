@@ -1,2 +1,6 @@
 http
 hyper text transfer protocol
+
+웹 클라이언트와 웹 서버 간의 요청과 응답이 http 프로토콜로 이루어진다
+
+이때 웹 서버가 제공하는 것을 리소스라고 하고 리소스의 위치를 URL을 이용해서 표현한다
