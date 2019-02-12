@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
+import { Route } from 'react-router-dom';
+import { Home, About, Posts } from 'pages';
+import Menu from 'components/Menu';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        언타이틀 웹
+        <Menu/>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about/:name?" component={About}/>
+        <Route path="/posts" component={Posts}/>
       </div>
     );
   }
